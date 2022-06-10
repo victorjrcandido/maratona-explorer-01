@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destino certo</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <img
+        src="bola.png"
+        alt="Imagem bola de cristal"
+        width="150"
+        height="150"
+      />
+      <h1>Vou revelar seu destino!</h1>
+      <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
+      <input id="inputPergunta" type="text" placeholder="Digite sua pergunta" />
+      <button id="buttonPerguntar" onclick="fazerPergunta()">
+        Fazer pergunta
+      </button>
+      <h3 id="resposta">
+        <!-- <div>Pergunta que fiz</div>
+        Resposta! -->
+      </h3>
+    </div>
+  </body>
+</html>
